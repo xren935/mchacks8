@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Home from './components/home';
+import About from './components/about';
+import Quiz from './components/quiz';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home />
+    <About />
+    <Quiz />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,24 @@
+.about {
+    height: 100vh;
+    width: 100vw;
+    background-color: #D4D7CE;
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about h2 {
+    color: #B5BF5F;
+}
+
+.about p {
+    color: #FAFDF3;
+    font-size: 1.6em;
+}
+
+.about .container {
+    text-align: left;
+    left: 50vw;
+    margin-top: 30vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
