@@ -1,0 +1,39 @@
+.signup {
+    height: 100vh;
+    width: 100vw;
+    background-color: #E5F0CE;
+    color: #6C7B47;
+}
+
+.signup .container {
+    padding: 20px;
+    padding-top: 10vh;
+    place-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.signup .container h5 {
+    text-align: left;
+}
+
+.signup .form-control {
+    background-color: rgba(245, 245, 220, 0.438);
+    color: #6c7b47a6; 
+}
+
+.signup .form-control:hover {
+    background-color: whitesmoke;
+    color: black; 
+}
+
+.signup button {
+    color: #6C7B47;
+    border: #6C7B47 1px solid;
+}
+
+.signup button:hover {
+    background-color: #6C7B47;
+    color: white;
+}

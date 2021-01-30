@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Home from './components/home';
 import About from './components/about';
+import Signup from './components/signup';
 import Quiz from './components/quiz';
 import reportWebVitals from './reportWebVitals';
 
@@ -11,6 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Home />
     <About />
+    <Signup />
     <Quiz />
   </React.StrictMode>,
   document.getElementById('root')
