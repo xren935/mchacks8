@@ -59,7 +59,7 @@ class Signup extends React.Component {
                             <Button variant="outline-success">Sign up</Button>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" id="col-no-3">
                         <img src={lates} id="signup-img-2"></img>
                     </div>
                 </div>
