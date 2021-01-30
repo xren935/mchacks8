@@ -5,6 +5,8 @@ import "../static/signup.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Nav, Navbar, NavDropdown, Form, FormControl, Button} from "react-bootstrap";
+import circle from '../static/img/circle.png';
+import lates from '../static/img/lates.png';
 
 Aos.init();
 class Signup extends React.Component {
@@ -20,7 +22,9 @@ class Signup extends React.Component {
         <div className="signup" id="signup">
             <div class="container">
                 <div class="row">
-                    <div class="col">1</div>
+                    <div class="col">
+                        <img src={circle} id="signup-img"></img>
+                    </div>
                     <div class="col">
                         <h1><b>Let's Get Started</b></h1>
                         <h4><b>Make mental health matter</b></h4>
@@ -55,7 +59,9 @@ class Signup extends React.Component {
                             <Button variant="outline-success">Sign up</Button>
                         </div>
                     </div>
-                    <div class="col">3</div>
+                    <div class="col">
+                        <img src={lates} id="signup-img-2"></img>
+                    </div>
                 </div>
             </div>
         </div>
