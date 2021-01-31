@@ -16,6 +16,10 @@ class Login extends React.Component {
     };
   }
 
+  login (){
+    alert("Think we have a database?! Ha maybe you shouldn't trust us that easily. We all get fooled sometimes. Stay strong dear.")
+  }
+
   render() {
     return (
         <div className="signup" id="signup">
@@ -47,7 +51,7 @@ class Login extends React.Component {
                             />
                             <br />
                             <br />
-                            <Button variant="outline-success">Log in</Button>
+                            <Button variant="outline-success" onClick={this.login}>Log in</Button>
                             <br />
                             <br />
                             <a href="https://www.google.ca"><u>Forgot password?</u></a>

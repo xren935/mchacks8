@@ -4,6 +4,7 @@
     /* height: 100vh; */
     background-color: #E5F0CE;
     color: #6C7B47;
+    display: none;
 }
 
 .signup .container {

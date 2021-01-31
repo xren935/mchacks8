@@ -9,6 +9,7 @@ import Login from './components/login';
 import Extra from './components/extra';
 import Quiz from './components/quiz';
 import Videos from './components/videos';
+import Final from './components/final';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -20,6 +21,7 @@ ReactDOM.render(
     <Quiz />
     <Extra />
     <Videos />
+    <Final />
   </React.StrictMode>,
   document.getElementById('root')
 );

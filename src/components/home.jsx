@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import { Nav, Navbar, NavDropdown, Form, FormControl, Button} from "react-bootstrap";
 
 Aos.init();
+
 class Home extends React.Component {
   constructor(props){
     super(props);
@@ -15,14 +16,22 @@ class Home extends React.Component {
     };
   }
 
+  signup() {
+    alert("your backend/database engineer is offline :( some work just can't be done");
+  }
+
+  login() {
+    alert("sometimes things just don't work, but that's okay");
+  }
+
   render() {
     Aos.init({ duration: 3000 });
     return (
         <div className="home" id="home" aos-data="fade-in">
             <div className="background">
-              <h1>INSERT NAME HERE</h1>
+              <h1>Actimind<h5>...or just couch potato, no stress</h5></h1>
               <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#">🌱 Name</Navbar.Brand>
+                <Navbar.Brand href="#">🌱 Actimind</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
@@ -30,9 +39,9 @@ class Home extends React.Component {
                     <Nav.Link href="#extra">Extra Help</Nav.Link>
                   </Nav>
                   <Form inline>
-                    <Button variant="outline-success">Sign up</Button>
+                    <Button variant="outline-success" onClick={this.signup}>Sign up</Button>
                     &nbsp;&nbsp;
-                    <Button variant="outline-success">Log in</Button>
+                    <Button variant="outline-success" onClick={this.login}>Log in</Button>
                   </Form>
                 </Navbar.Collapse>
               </Navbar>

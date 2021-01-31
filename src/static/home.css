@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100vw;
     margin: 0;
+    font-family: 'Roboto Slab', serif;
 }
 
 .home .background {
@@ -15,8 +16,6 @@
     background-color: #B5BF5F;
     color: #fafdf3;
     position: relative;
-    /* filter: brightness(60%);
-    position: absolute; */
 }
 
 .home h1 {
@@ -27,6 +26,7 @@
     text-align: center;
     top: 50%;
     width: 100%;
+    font-size: 3em;
 }
 
 .home button {

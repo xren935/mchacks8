@@ -17,6 +17,10 @@ class Signup extends React.Component {
     };
   }
 
+  signup (){
+      alert("sorry, we can't sign u up. This is just one of the discouragements in your life.")
+  }
+
   render() {
     return (
         <div className="signup" id="signup">
@@ -56,7 +60,7 @@ class Signup extends React.Component {
                             />
                             <br />
                             <br />
-                            <Button variant="outline-success">Sign up</Button>
+                            <Button variant="outline-success" onClick={this.signup}>Sign up</Button>
                         </div>
                     </div>
                     <div class="col" id="col-no-3">
