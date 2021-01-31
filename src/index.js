@@ -5,7 +5,10 @@ import App from './App';
 import Home from './components/home';
 import About from './components/about';
 import Signup from './components/signup';
+import Login from './components/login';
+import Extra from './components/extra';
 import Quiz from './components/quiz';
+import Videos from './components/videos';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,7 +16,10 @@ ReactDOM.render(
     <Home />
     <About />
     <Signup />
+    <Login />
     <Quiz />
+    <Extra />
+    <Videos />
   </React.StrictMode>,
   document.getElementById('root')
 );

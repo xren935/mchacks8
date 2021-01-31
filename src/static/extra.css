@@ -1,0 +1,21 @@
+.extra {
+    height: auto;
+    width: 100vw;
+    background-color: #E5F0CE;
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+    color: #6C7B47;
+}
+
+.card {
+    background-color: beige;
+    margin: 20px;
+}
+
+.extra button {
+    background-color: #6C7B47;
+}
+
+.extra a {
+    color: white;
+}

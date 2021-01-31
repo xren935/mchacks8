@@ -1,0 +1,9 @@
+.vid {
+    width: 100vw;
+    overflow: hidden;
+    min-height: 100vh;
+    height: auto;
+    background-color: beige;
+    color: #6C7B47;
+    padding-bottom: 50px;
+}
